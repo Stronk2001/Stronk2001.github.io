@@ -1,0 +1,121 @@
+body{
+	background-color: #000;
+}
+
+#wrapper{
+	margin: 0 auto; 
+	width: 980px;
+	background-color: #000;
+
+}
+
+#header{
+	background-image: url("img/Header.png");
+	height: 245px;
+	background-color: #000;
+
+}
+
+#menu{
+	text-align: center;
+	font: menu;
+	font-size: 20pt;
+	height: 110px;
+	background-color: #000;
+
+}
+
+#content{
+	text-align: center;
+	height: 30px;
+	background-color: #000;
+	padding: 10px;
+
+}
+
+#content2{
+	color: #FFF;
+	font: menu;
+
+
+}
+
+
+a:link{
+	color: #FFF;
+	text-decoration: none;
+
+}
+
+a:visited{	color: #FFFFFF;
+	text-decoration: none;}
+
+a:hover{	color: #FF9900;
+	text-decoration: none;}
+
+a:active{	color: #4D4D4D;
+	text-decoration: none;}
+
+
+	@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 17s slider infinite; 
+
+}
